@@ -2,20 +2,25 @@ const config = require('../config')
 const { cmd, commands } = require('../command')
 const { runtime } = require('../lib/functions')
 
-// Category format
+// 🔥 ONE UNIFORM STYLE FOR WHOLE MENU
 const formatCategory = (category, cmds) => {
 
     const validCmds = cmds.filter(cmd => cmd.pattern);
     if (!validCmds.length) return '';
 
-    let title = `\n▰▰▰『 ${category.toUpperCase()} 』▰▰▰\n`;
+    let text = `
+╔════════════════════════════╗
+║   ⚡ ${category.toUpperCase()} MENU
+╠════════════════════════════╣
+`;
 
-    let body = '';
     for (let i = 0; i < validCmds.length; i++) {
-        body += `➥ .${validCmds[i].pattern}\n`;
+        text += `║ ➤ .${validCmds[i].pattern}\n`;
     }
 
-    return `${title}${body}\n▰▰▰▰▰▰▰▰▰▰`;
+    text += `╚════════════════════════════╝\n\n`;
+
+    return text;
 };
 
 cmd({
@@ -24,7 +29,7 @@ cmd({
     use: '.menu',
     desc: "Show all bot commands",
     category: "main",
-    react: "🖥️",
+    react: "🤖",
     filename: __filename
 },
 async (conn, mek, m, { from, reply, userConfig }) => {
@@ -42,7 +47,7 @@ async (conn, mek, m, { from, reply, userConfig }) => {
 
         const totalCommands = commands.length;
 
-        // FAST GROUPING
+        // GROUP COMMANDS
         const grouped = {};
         for (let i = 0; i < commands.length; i++) {
             const c = commands[i];
@@ -60,21 +65,23 @@ async (conn, mek, m, { from, reply, userConfig }) => {
             menuSections += formatCategory(cat, grouped[cat]);
         }
 
-        const dec = `▰▰▰『 ${BOT_NAME} 』▰▰▰
+        const dec = `╔════════════════════════════╗
+║   ▰▰▰ ${BOT_NAME} MENU ▰▰▰
+╚════════════════════════════╝
 
-╭─❍ ʙᴏᴛ ɪɴғᴏ
-│ ➥ Owner : ${OWNER_NAME}
-│ ➥ Commands : ${totalCommands}
-│ ➥ Runtime : ${runtime(process.uptime())}
-│ ➥ Prefix : ${PREFIX}
-│ ➥ Mode : ${MODE}
-│ ➥ Version : ${VERSION}
-╰────────────
+╭─❍ BOT INFO
+│ ➤ Owner    : ${OWNER_NAME}
+│ ➤ Commands : ${totalCommands}
+│ ➤ Runtime  : ${runtime(process.uptime())}
+│ ➤ Prefix   : ${PREFIX}
+│ ➤ Mode     : ${MODE}
+│ ➤ Version  : ${VERSION}
+╰───────────────
 
 ${menuSections}
-
-▰▰▰▰▰▰▰▰▰▰
-> ${DESCRIPTION}`;
+╔════════════════════════════╗
+║   ${DESCRIPTION || "POWERED BOT"}
+╚════════════════════════════╝`;
 
         await conn.sendMessage(from, {
             image: { url: imageToUse },
@@ -86,7 +93,6 @@ ${menuSections}
                 { buttonId: ".ping", buttonText: { displayText: "⚡ PING" }, type: 1 }
             ],
 
-            // 🔥 NEWSLETTER FORWARD SYSTEM (RESTORED)
             contextInfo: {
                 isForwarded: true,
                 forwardingScore: 999,
