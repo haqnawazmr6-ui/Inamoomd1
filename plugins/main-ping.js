@@ -58,7 +58,7 @@ async (conn, mek, m, { from, sender, reply }) => {
 
         const responseTime = Date.now() - start;
 
-        const text = `> *${styleText("NAWAZ MD MINI BOT SPEED")}: ${responseTime}ms ${reactionEmoji}*`;
+        const text = `> *${styleText("inamoo MD MINI BOT SPEED")}: ${responseTime}ms ${reactionEmoji}*`;
 
         await conn.sendMessage(from, {
             text,
@@ -67,8 +67,8 @@ async (conn, mek, m, { from, sender, reply }) => {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363426829681935@newsletter',
-                    newsletterName: "NawazTechX",
+                    newsletterJid: '120363429447258290@newsletter',
+                    newsletterName: "inamoo TechX",
                     serverMessageId: 143
                 }
             }
@@ -104,7 +104,7 @@ async (conn, mek, m, { from, reply }) => {
         else status = "🐢 Slow Response";
 
         const msg = `
-╭┈──〔 ⚡ ${styleText("NAWAZ MD MINI BOT PING")} 〕─⊷
+╭┈──〔 ⚡ ${styleText("inamoo MD MINI BOT PING")} 〕─⊷
 ├▢ 📶 ${styleText("Response")}: ${ping} ms
 ├▢ 🧠 ${styleText("Status")}: ${status}
 ├▢ 💫 ${styleText("Mode")}: Active & Stable
