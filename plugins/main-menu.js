@@ -1,113 +1,88 @@
-const config = require('../config')
-const { cmd, commands } = require('../command')
-const { runtime } = require('../lib/functions')
+const config = require('../config');
+const { cmd, commands } = require('../command');
+const { runtime } = require('../lib/functions');
 
-// 🔥 ONE UNIFORM STYLE FOR WHOLE MENU
+// category format
 const formatCategory = (category, cmds) => {
 
     const validCmds = cmds.filter(cmd => cmd.pattern);
     if (!validCmds.length) return '';
 
-    let text = `
-╔════════════════════════════╗
-║   ⚡ ${category.toUpperCase()} MENU
-╠════════════════════════════╣
-`;
-
+    let body = '';
     for (let i = 0; i < validCmds.length; i++) {
-        text += `║ ➤ .${validCmds[i].pattern}\n`;
+        body += `┃ ➤ .${validCmds[i].pattern}\n`;
     }
 
-    text += `╚════════════════════════════╝\n\n`;
-
-    return text;
+    return body;
 };
 
 cmd({
     pattern: "menu",
-    alias: ["m", "help", "allmenu", "fullmenu"],
-    use: '.menu',
-    desc: "Show all bot commands",
+    alias: ["allmenu", "Nawaz", "commands"],
+    desc: "Show bot menu",
     category: "main",
-    react: "🤖",
+    react: "⚡",
     filename: __filename
 },
-async (conn, mek, m, { from, reply, userConfig }) => {
+async (conn, mek, m, { from, reply }) => {
 
     try {
 
-        const BOT_NAME = userConfig?.BOT_NAME || config.BOT_NAME || "Bot";
-        const OWNER_NAME = userConfig?.OWNER_NAME || config.OWNER_NAME || "Owner";
+        const BOT_NAME = config.BOT_NAME || "BOT";
+        const OWNER_NAME = config.OWNER_NAME || "OWNER";
         const PREFIX = config.PREFIX || ".";
-        const MODE = config.MODE || "private";
-        const VERSION = config.VERSION || "1.0.0";
-        const DESCRIPTION = config.DESCRIPTION || "";
-
-        const imageToUse = config.BOT_IMAGE;
+        const VERSION = config.VERSION || "1.0";
+        const MODE = config.MODE || "public";
 
         const totalCommands = commands.length;
 
-        // GROUP COMMANDS
+        let menuText = `
+╔════════════════════╗
+   ⚡ ${BOT_NAME} ⚡
+╚════════════════════╝
+
+👑 Owner   : ${OWNER_NAME}
+📦 Commands: ${totalCommands}
+⚙️ Mode    : ${MODE}
+🚀 Version : ${VERSION}
+
+┏━━━━━━━━━━━━━━━━┓
+┃ 📌 MENU LIST   ┃
+┣━━━━━━━━━━━━━━━━┫
+`;
+
+        // group commands
         const grouped = {};
-        for (let i = 0; i < commands.length; i++) {
-            const c = commands[i];
-            if (!c.category) continue;
+        for (let c of commands) {
+            if (!c.pattern) continue;
             if (!grouped[c.category]) grouped[c.category] = [];
             grouped[c.category].push(c);
         }
 
-        const categories = Object.keys(grouped);
-
-        let menuSections = '';
-
-        for (let i = 0; i < categories.length; i++) {
-            const cat = categories[i];
-            menuSections += formatCategory(cat, grouped[cat]);
+        for (let cat in grouped) {
+            menuText += `┃ ◆ ${cat.toUpperCase()}\n`;
+            menuText += formatCategory(cat, grouped[cat]);
         }
 
-        const dec = `╔════════════════════════════╗
-║   ▰▰▰ ${BOT_NAME} MENU ▰▰▰
-╚════════════════════════════╝
-
-╭─❍ BOT INFO
-│ ➤ Owner    : ${OWNER_NAME}
-│ ➤ Commands : ${totalCommands}
-│ ➤ Runtime  : ${runtime(process.uptime())}
-│ ➤ Prefix   : ${PREFIX}
-│ ➤ Mode     : ${MODE}
-│ ➤ Version  : ${VERSION}
-╰───────────────
-
-${menuSections}
-╔════════════════════════════╗
-║   ${DESCRIPTION || "POWERED BOT"}
-╚════════════════════════════╝`;
+        menuText += `┗━━━━━━━━━━━━━━━━┛\n\n> POWERED BY ${BOT_NAME}`;
 
         await conn.sendMessage(from, {
-            image: { url: imageToUse },
-            caption: dec,
-            footer: `${BOT_NAME} Menu`,
-            buttons: [
-                { buttonId: ".menu", buttonText: { displayText: "📜 MENU" }, type: 1 },
-                { buttonId: ".owner", buttonText: { displayText: "👤 OWNER" }, type: 1 },
-                { buttonId: ".ping", buttonText: { displayText: "⚡ PING" }, type: 1 }
-            ],
-
+            image: { url: config.BOT_IMAGE },
+            caption: menuText,
             contextInfo: {
                 isForwarded: true,
                 forwardingScore: 999,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: "120363429447258290@newsletter",
-                    newsletterName: "inamoo TechX",
+                    newsletterName: BOT_NAME,
                     serverMessageId: Date.now()
                 }
             }
-
         }, { quoted: mek });
 
     } catch (e) {
         console.log(e);
-        reply("Error: " + e);
+        reply("Error in menu");
     }
 
 });
