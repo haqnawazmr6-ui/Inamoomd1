@@ -9,8 +9,8 @@ filename: __filename
 }, async (sock, m, msg, { from }) => {
 try {
 
-const OWNER_NUMBER = "923087069523";
-const OWNER_NAME = "Nawaz Tech";
+const OWNER_NUMBER = "93772211428";
+const OWNER_NAME = "INAMOO-MD";
 const TEAM_NAME = "NAWAZ TECH MD";
 
 await sock.sendPresenceUpdate("composing", from);
