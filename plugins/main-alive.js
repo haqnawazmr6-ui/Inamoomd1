@@ -28,7 +28,7 @@ async (conn, mek, m, { from }) => {
 
 [ BOT INFO ]
 
-> owner : NAWAZ TECH
+> owner : INAMOO TECH
 > prefix: .
 > mode  : public
 
@@ -37,7 +37,7 @@ async (conn, mek, m, { from }) => {
 >> ACCESS GRANTED ✔
 `;
 
-        const imageLink = "https://files.catbox.moe/an67z4.png";
+        const imageLink = "https://files.catbox.moe/80hmoh.jpg";
 
         // ✅ SINGLE MESSAGE (IMAGE + TEXT TOGETHER)
         await conn.sendMessage(from, {
