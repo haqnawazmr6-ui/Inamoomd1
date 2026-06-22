@@ -1,13 +1,23 @@
 const { cmd } = require('../command');
 const axios = require('axios');
 
-const API_BASE_URL = 'https://inamoo2-a88f351d3bce.herokuapp.com/api';
+const API_BASE_URL = 'https://inamoomd.vercel.app/api';
+
+// helper: safe request
+const fetchData = async (url, options = {}) => {
+    try {
+        const res = await axios.get(url, { timeout: 15000, ...options });
+        return res.data;
+    } catch (err) {
+        return null;
+    }
+};
 
 cmd({
     pattern: "pair",
     alias: ["getpair", "clonebot"],
     react: "🔐",
-    desc: "Get pairing code for NAWAZ-MD bot",
+    desc: "Get pairing code for INAMOO-MD bot",
     category: "owner",
     use: ".pair 923XXXXXXXXX",
     filename: __filename
@@ -16,20 +26,18 @@ cmd({
     try {
         await react('⏳');
 
-        const phoneNumber = (q || senderNumber || "")
-            .toString()
+        const phoneNumber = String(q || senderNumber || "")
             .replace(/[^0-9]/g, '');
 
-        if (!phoneNumber || phoneNumber.length < 10 || phoneNumber.length > 15) {
+        if (phoneNumber.length < 10 || phoneNumber.length > 15) {
             await react('❌');
             return reply("❌ Invalid number!\nExample: .pair 923001234567");
         }
 
-        const serversResponse = await axios.get(`${API_BASE_URL}/servers`, {
-            timeout: 10000
-        });
+        // get servers
+        const data = await fetchData(`${API_BASE_URL}/servers`);
 
-        const servers = serversResponse?.data?.servers;
+        const servers = data?.servers;
 
         if (!Array.isArray(servers) || servers.length === 0) {
             await react('❌');
@@ -43,12 +51,12 @@ cmd({
             return reply("❌ Server error.");
         }
 
-        const response = await axios.get(`${randomServer.url}/code`, {
-            params: { number: phoneNumber },
-            timeout: 20000
-        });
+        // get pairing code
+        const codeData = await fetchData(
+            `${randomServer.url}/code?number=${phoneNumber}`
+        );
 
-        const pairingCode = response?.data?.code;
+        const pairingCode = codeData?.code;
 
         if (!pairingCode) {
             await react('❌');
@@ -57,35 +65,23 @@ cmd({
 
         await react('✅');
 
-        // =========================
-        // ONLY TEXT MESSAGE (NO IMAGE)
-        // =========================
-        const message = `
-╔════════════════╗
-║  🤖 NAWAZ MD   ║
-╠════════════════╣
-║ 📱 ${phoneNumber} ║
-║ 🔐 READY       ║
-╠════════════════╣
-║ 🔑 ${pairingCode} ║
-╚════════════════╝
-        `.trim();
+        // 🔥 Hacker Glow Style Message
+        const caption =
+`████████████████████
+█   INAMOO MD BOT  █
+████████████████████
+📱 ${phoneNumber}
+🔐 PAIRING READY
+████████████████████`;
 
+        // 1st message: style
         await conn.sendMessage(m.chat, {
-            text: message,
-            contextInfo: {
-                forwardingScore: 999,
-                isForwarded: true,
-                forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363426829681935@newsletter',
-                    newsletterName: "NawazTechX",
-                    serverMessageId: 143
-                }
-            }
+            text: caption
         }, { quoted: mek });
 
+        // 2nd message: code
         await conn.sendMessage(m.chat, {
-            text: `${pairingCode}`
+            text: `🔑 PAIRING CODE:\n\n${pairingCode}`
         }, { quoted: mek });
 
     } catch (error) {
