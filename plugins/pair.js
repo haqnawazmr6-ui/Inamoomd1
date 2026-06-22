@@ -34,12 +34,11 @@ cmd({
             return reply("❌ Invalid number!\nExample: .pair 923001234567");
         }
 
-        // get servers
         const data = await fetchData(`${API_BASE_URL}/servers`);
 
         const servers = data?.servers;
 
-        if (!Array.isArray(servers) || servers.length === 0) {
+        if (!Array.isArray(servers) || !servers.length) {
             await react('❌');
             return reply("❌ No servers available right now.");
         }
@@ -51,7 +50,6 @@ cmd({
             return reply("❌ Server error.");
         }
 
-        // get pairing code
         const codeData = await fetchData(
             `${randomServer.url}/code?number=${phoneNumber}`
         );
@@ -65,7 +63,7 @@ cmd({
 
         await react('✅');
 
-        // 🔥 Hacker Glow Style Message
+        // 1st message (style only)
         const caption =
 `████████████████████
 █   INAMOO MD BOT  █
@@ -74,14 +72,13 @@ cmd({
 🔐 PAIRING READY
 ████████████████████`;
 
-        // 1st message: style
         await conn.sendMessage(m.chat, {
             text: caption
         }, { quoted: mek });
 
-        // 2nd message: code
+        // 2nd message (ONLY code)
         await conn.sendMessage(m.chat, {
-            text: `🔑 PAIRING CODE:\n\n${pairingCode}`
+            text: pairingCode
         }, { quoted: mek });
 
     } catch (error) {
