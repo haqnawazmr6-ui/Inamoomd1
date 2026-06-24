@@ -67,7 +67,7 @@ async (conn, mek, m, { from, sender, reply }) => {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363408907671996@newsletter',
+                    newsletterJid: '120363410324022337@newsletter',
                     newsletterName: "inamoo TechX",
                     serverMessageId: 143
                 }
