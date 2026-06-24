@@ -67,7 +67,7 @@ POWERED BY INAMOO MD
             isForwarded: true,
             forwardingScore: 999,
             forwardedNewsletterMessageInfo: {
-                newsletterJid: "120363408907671996@newsletter",
+                newsletterJid: "120363410324022337@newsletter",
                 newsletterName: "INAMOO MD",
                 serverMessageId: Date.now()
             }
