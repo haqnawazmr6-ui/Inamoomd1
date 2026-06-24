@@ -47,7 +47,7 @@ async (conn, mek, m, { from }) => {
                 isForwarded: true,
                 forwardingScore: 999,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: "120363408907671996@newsletter",
+                    newsletterJid: "120363410324022337@newsletter",
                     newsletterName: "inamoo TECH MD",
                     serverMessageId: Date.now().toString()
                 }
