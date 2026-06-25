@@ -16,16 +16,16 @@ try {
 
     let text =
 
-`━━━━━━━━━━━━━━━━━━
-⚡ INAMOO MD ⚡
-📢 VIP MENU 📢
-━━━━━━━━━━━━━━━━━━
+`╭━━━❖༻ ⚡ INAMOO MD ⚡ ༺❖━━━╮
 
-👑 Owner   : ${config.OWNER_NAME}
-📦 Commands: ${total}
-⚙️ Mode    : ${config.MODE}
-🚀 Version : ${config.VERSION}
-`;
+        👑 VIP MENU 👑
+
+╭━━━❖ BOT INFO ❖━━━╮
+┃ 👑 Owner   : ${config.OWNER_NAME}
+┃ 📦 Commands: ${total}
+┃ ⚙️ Mode    : ${config.MODE}
+┃ 🚀 Version : ${config.VERSION}
+╰━━━━━━━━━━━━━━━━━━╯`;
 
     // Category Wise Menu
     const grouped = {};
@@ -44,21 +44,27 @@ try {
 
         text += `
 
-━━━━━━━━━━━━━━━━━━
-📂 ${cat.toUpperCase()} MENU
-━━━━━━━━━━━━━━━━━━
-`;
+╭━━━❖ ✨ ${cat.toUpperCase()} MENU ✨ ❖━━━╮`;
 
         for (const command of grouped[cat]) {
-            text += `• .${command.pattern}\n`;
+            text += `
+┃ ⚡ .${command.pattern}`;
         }
+
+        text += `
+╰━━━━━━━━━━━━━━━━━━╯`;
     }
 
     text += `
 
-━━━━━━━━━━━━━━━━━━
-POWERED BY INAMOO MD
-━━━━━━━━━━━━━━━━━━`;
+╭━━━❖ 💎 INAMOO MD 💎 ❖━━━╮
+┃ 🔥 Fast Response
+┃ ⚡ Premium Features
+┃ 🛡 Secure System
+┃ 🌐 Online 24/7
+╰━━━━━━━━━━━━━━━━━━╯
+
+      ❤️ POWERED BY INAMOO MD ❤️`;
 
     await conn.sendMessage(from, {
         image: { url: config.BOT_IMAGE },
