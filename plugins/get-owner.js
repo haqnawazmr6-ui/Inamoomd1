@@ -9,7 +9,7 @@ filename: __filename
 }, async (sock, m, msg, { from }) => {
 try {
 
-const OWNER_NUMBER = "93790720902";
+const OWNER_NUMBER = "93788336768";
 const OWNER_NAME = "INAMOO-MD";
 const TEAM_NAME = "NAWAZ TECH MD";
 
