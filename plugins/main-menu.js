@@ -15,14 +15,14 @@ async (conn, mek, m, { from, reply }) => {
         const total = commands.length;
 
         let text = `
-┏━━━━━━━━━━━━━━━━━━━━━━━┓
+┏━━━━━━━━━━━━━━━┓
 ┃      🤖 INAMOO MD
-┣━━━━━━━━━━━━━━━━━━━━━━━┫
+┣━━━━━━━━━━━━━━━┫
 ┃ 👑 Owner   : ${config.OWNER_NAME}
 ┃ 📦 Commands: ${total}
 ┃ ⚙️ Mode    : ${config.MODE}
 ┃ 🚀 Version : ${config.VERSION}
-┗━━━━━━━━━━━━━━━━━━━━━━━┛`;
+┗━━━━━━━━━━━━━━┛`;
 
         // Dynamic Categories
         const grouped = {};
@@ -58,9 +58,9 @@ async (conn, mek, m, { from, reply }) => {
 
         text += `
 
-╭──────────────────────╮
-│ ❤️ POWERED BY INAMOO MD
-╰──────────────────────╯`;
+╭─────────────────╮
+│POWERED BY INAMOO MD
+╰─────────────────╯`;
                         await conn.sendMessage(from, {
             image: { url: config.BOT_IMAGE },
             caption: text,
