@@ -61,7 +61,7 @@ async (conn, mek, m, { from, reply }) => {
 ╭──────────────────────╮
 │ ❤️ POWERED BY INAMOO MD
 ╰──────────────────────╯`;
-                await conn.sendMessage(from, {
+                        await conn.sendMessage(from, {
             image: { url: config.BOT_IMAGE },
             caption: text,
             contextInfo: {
