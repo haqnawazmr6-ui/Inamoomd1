@@ -13,13 +13,13 @@ async (conn, mek, m, { from }) => {
 
     const message = `
 ✦✦✦✦✦✦✦✦✦✦
-   📦 NAWAZ-MD REPO
+   📦 𝆺𝅥𝆬𓍢ִ໋͙⋆𝚭𝚵𝚴𝚿𝐓𝚮 𝐌𝐃💸˚₊· ͟͟͞͞➳REPO
 ✦✦✦✦✦✦✦✦✦✦
 
 🌐 SERVER LINK:
 🔗 ${serverLink}
 
-⚡ Nawaz MD System
+⚡ 𝆺𝅥𝆬𓍢ִ໋͙⋆𝚭𝚵𝚴𝚿𝐓𝚮 𝐌𝐃💸˚₊· ͟͟͞͞➳ System
 `.trim();
 
     await conn.sendMessage(from, {
@@ -27,8 +27,8 @@ async (conn, mek, m, { from }) => {
         contextInfo: {
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-                newsletterJid: "120363426829681935@newsletter",
-                newsletterName: "NAWAZ-MD UPDATES",
+                newsletterJid: "120363409398296443@newsletter",
+                newsletterName: "𝆺𝅥𝆬𓍢ִ໋͙⋆𝚭𝚵𝚴𝚿𝐓𝚮 𝐌𝐃💸˚₊· ͟͟͞͞➳",
                 serverMessageId: 1
             }
         }

@@ -44,7 +44,7 @@ cmd({
       document: fileBuffer,
       fileName: fileName,
       mimetype: mimetype,
-      caption: `*MediaFire Download*\n\n📄 *File:* ${fileName}\n\nPowered by NAWAZ-MD`
+      caption: `*MediaFire Download*\n\n📄 *File:* ${fileName}\n\n©𝛲๏፝֟Ꮿ𝛆̽ɼ͠ ɓɣ̬ 𝆺𝅥𝆬𓍢ִ໋͙⋆𝚭𝚵𝚴𝚿𝐓𝚮 𝐌𝐃💸˚₊· ͟͟͞͞➳`
     };
 
     await conn.sendMessage(from, messageOptions, { quoted: mek });

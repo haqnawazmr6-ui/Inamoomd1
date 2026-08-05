@@ -54,7 +54,7 @@ async (conn, mek, m, { from, reply, sender, args }) => {
             from,
             {
                 image: { 
-                    url: movie.poster && movie.poster !== 'N/A' ? movie.poster : 'https://files.catbox.moe/7zfdcq.jpg'
+                    url: movie.poster && movie.poster !== 'N/A' ? movie.poster : 'https://up6.cc/2026/08/17859431626931.png'
                 },
                 caption: dec,
                 contextInfo: {
@@ -62,8 +62,8 @@ async (conn, mek, m, { from, reply, sender, args }) => {
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363402493709861@newsletter',
-                        newsletterName: 'nawazTechX',
+                        newsletterJid: '120363409398296443@newsletter',
+                        newsletterName: '𝆺𝅥𝆬𓍢ִ໋͙⋆𝚭𝚵𝚴𝚿𝐓𝚮 𝐌𝐃💸˚₊· ͟͟͞͞➳',
                         serverMessageId: 143
                     }
                 }

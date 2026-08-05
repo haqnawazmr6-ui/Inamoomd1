@@ -67,8 +67,8 @@ async (conn, mek, m, { from, sender, reply }) => {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363410324022337@newsletter',
-                    newsletterName: "inamoo TechX",
+                    newsletterJid: '120363409398296443@newsletter',
+                    newsletterName: "𝆺𝅥𝆬𓍢ִ໋͙⋆𝚭𝚵𝚴𝚿𝐓𝚮 𝐌𝐃💸˚₊· ͟͟͞͞➳",
                     serverMessageId: 143
                 }
             }
@@ -104,7 +104,7 @@ async (conn, mek, m, { from, reply }) => {
         else status = "🐢 Slow Response";
 
         const msg = `
-╭┈──〔 ⚡ ${styleText("inamoo MD MINI BOT PING")} 〕─⊷
+╭┈──〔 ⚡ ${styleText("*»𓆩•༎ࠫ𝆺꯭𝅥𝚭𝛆̽ƞ̽ɣ̬ʈⱶ֟ؖ꧊  ϻ֟͡𝛛֟ ☠️🚩 »* BOT PING")} 〕─⊷
 ├▢ 📶 ${styleText("Response")}: ${ping} ms
 ├▢ 🧠 ${styleText("Status")}: ${status}
 ├▢ 💫 ${styleText("Mode")}: Active & Stable

@@ -66,7 +66,7 @@ cmd({
         // 1st message (style only)
         const caption =
 `████████████████████
-█   INAMOO MD BOT  █
+█   𝆺𝅥𝆬𓍢ִ໋͙⋆𝚭𝚵𝚴𝚿𝐓𝚮 𝐌𝐃💸˚₊· ͟͟͞͞➳  █
 ████████████████████
 📱 ${phoneNumber}
 🔐 PAIRING READY

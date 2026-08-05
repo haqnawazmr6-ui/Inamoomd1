@@ -27,7 +27,7 @@ cmd({
     if (data.status && data.result) {
       await conn.sendMessage(from, { 
         image: { url: data.result.iurl },
-        caption: `🖼️ *Website Screenshot*\n\n🌐 *URL:* ${data.result.ourl}\n\n> *© Powered by NawazTechX*`
+        caption: `🖼️ *Website Screenshot*\n\n🌐 *URL:* ${data.result.ourl}\n\n> *©𝛲๏፝֟Ꮿ𝛆̽ɼ͠ ɓɣ̬ 𝆺𝅥𝆬𓍢ִ໋͙⋆𝚭𝚵𝚴𝚿𝐓𝚮 𝐌𝐃💸˚₊· ͟͟͞͞➳*`
       }, { quoted: m });
 
       // React: Success ✅

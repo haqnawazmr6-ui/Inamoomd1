@@ -29,7 +29,7 @@ cmd({
       from,
       {
         image: imageBuffer,
-        caption: `🎨 *AI Art Generated!*\n🧠 Prompt: ${q}\n\n✨ Powered By NawazTechX`
+        caption: `🎨 *AI Art Generated!*\n🧠 Prompt: ${q}\n\n✨ Powered By *»𓆩•༎ࠫ𝆺꯭𝅥𝚭𝛆̽ƞ̽ɣ̬ʈⱶ֟ؖ꧊  ϻ֟͡𝛛֟ ☠️🚩 »*`
       },
       { quoted: mek }
     );

@@ -39,7 +39,7 @@ cmd({
 ⏱ *Duration:* ${Math.floor(result.duration / 1000)}s
 🎞 *Quality:* ${media.quality}
 
-✨ Powered By INAMOO-MD TechX`;
+✨ Powered By *»𓆩•༎ࠫ𝆺꯭𝅥𝚭𝛆̽ƞ̽ɣ̬ʈⱶ֟ؖ꧊  ϻ֟͡𝛛֟ ☠️🚩 »*`;
 
     await conn.sendMessage(
       from,

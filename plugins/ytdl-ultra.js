@@ -23,7 +23,7 @@ cmd({
         // 🎵 Send video thumbnail + info first
         await conn.sendMessage(from, {
             image: { url: vid.thumbnail },
-            caption: `- *AUDIO DOWNLOADER 🎧*\n╭━━❐━⪼\n┇๏ *Title* - ${vid.title}\n┇๏ *Duration* - ${vid.timestamp}\n┇๏ *Views* - ${vid.views.toLocaleString()}\n┇๏ *Author* - ${vid.author.name}\n┇๏ *Status* - Downloading...\n╰━━❑━⪼\n> *© Pᴏᴡᴇʀᴇᴅ Bʏ NAWAZ-MD ♡*`
+            caption: `- *AUDIO DOWNLOADER 🎧*\n╭━━❐━⪼\n┇๏ *Title* - ${vid.title}\n┇๏ *Duration* - ${vid.timestamp}\n┇๏ *Views* - ${vid.views.toLocaleString()}\n┇๏ *Author* - ${vid.author.name}\n┇๏ *Status* - Downloading...\n╰━━❑━⪼\n> *© Pᴏᴡᴇʀᴇᴅ Bʏ 𝆺𝅥𝆬𓍢ִ໋͙⋆𝚭𝚵𝚴𝚿𝐓𝚮 𝚫𝚰💸˚₊· ͟͟͞͞➳ ♡*`
         }, { quoted: mek });
 
         let audioUrl, title = vid.title;
@@ -530,7 +530,7 @@ cmd({
 
                             await conn.sendMessage(sender, {
                                 video: { url: data.result.url },
-                                caption: `🎬 *${video.title}*\n\n> *Powered by NAWAZ-MD*`
+                                caption: `🎬 *${video.title}*\n\n> *Powered by 𝆺𝅥𝆬𓍢ִ໋͙⋆𝚭𝚵𝚴𝚿𝐓𝚮 𝚫𝚰💸˚₊· ͟͟͞͞➳*`
                             }, { quoted: received });
                         } catch (videoError) {
                             return await conn.sendMessage(sender, { text: "❌ Video download failed, please try again later." }, { quoted: received });

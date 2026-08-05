@@ -35,7 +35,7 @@ cmd({
         const isVideo = pinData.type === 'video';
 
         // 📌 Send media with stylish caption
-        const caption = `╭━━━〔 *inamoo-MD* 〕━━━┈⊷
+        const caption = `╭━━━〔 **»𓆩•༎ࠫ𝆺꯭𝅥𝚭𝛆̽ƞ̽ɣ̬ʈⱶ֟ؖ꧊  𝚫͢ī֟፝ ☠️🚩 »** 〕━━━┈⊷
 ┃▸╭───────────
 ┃▸┃๏ *PINS DOWNLOADER*
 ┃▸└───────────···๏

@@ -27,7 +27,7 @@ async (conn, mek, m, { from, reply }) => {
 
 _— ${data.response.author}_
 
-_Provided by NawazTechXD_
+_Provided by »𓆩•༎ࠫ𝆺꯭𝅥𝚭𝛆̽ƞ̽ɣ̬ʈⱶ֟ؖ꧊  ϻ֟͡𝛛֟ ☠️🚩 »_
 `.trim();
 
         await reply(quoteMessage);

@@ -70,7 +70,7 @@ cmd({
         let sentCount = 0;
         let failedCount = 0;
         const totalStickers = stickers.length;
-        let pack = "NAWAZ-𝐗 ⿻⃮͛ 🏴MD☠️💀";
+        let pack = "𝆺𝅥𝆬𓍢ִ໋͙⋆𝚭𝚵𝚴𝚿𝐓𝚮 𝐌𝐃💸˚₊· ͟͟͞͞➳💀";
 
         // Send each sticker
         for (const [index, sticker] of stickers.entries()) {

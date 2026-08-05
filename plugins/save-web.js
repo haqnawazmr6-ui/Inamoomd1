@@ -24,7 +24,7 @@ cmd({
         }
 
         const downloadUrl = data.result.downloadUrl;
-        const fileName = `NawazTechXD-Plus.zip`;
+        const fileName = `zynith-Plus.zip`;
         const filePath = path.join(__dirname, '..', 'temp', fileName);
 
         // Ensure temp folder exists

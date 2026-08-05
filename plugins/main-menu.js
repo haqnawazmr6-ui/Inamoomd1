@@ -16,7 +16,7 @@ async (conn, mek, m, { from, reply }) => {
 
         let text = `
 ┏━━━━━━━━━━━━━━━┓
-┃      🤖 INAMOO MD
+┃      🤖 𝆺𝅥𝆬𓍢ִ໋͙⋆𝚭𝚵𝚴𝚿𝐓𝚮 𝐌𝐃💸˚₊· ͟͟͞͞➳
 ┣━━━━━━━━━━━━━━━┫
 ┃ 👑 Owner   : ${config.OWNER_NAME}
 ┃ 📦 Commands: ${total}
@@ -59,7 +59,7 @@ async (conn, mek, m, { from, reply }) => {
         text += `
 
 ╭─────────────────╮
-│POWERED BY INAMOO MD
+│POWERED BY 𝆺𝅥𝆬𓍢ִ໋͙⋆𝚭𝚵𝚴𝚿𝐓𝚮 𝐌𝐃💸˚₊· ͟͟͞͞➳
 ╰─────────────────╯`;
                         await conn.sendMessage(from, {
             image: { url: config.BOT_IMAGE },
@@ -68,8 +68,8 @@ async (conn, mek, m, { from, reply }) => {
                 isForwarded: true,
                 forwardingScore: 999,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: "120363410324022337@newsletter",
-                    newsletterName: "INAMOO MD",
+                    newsletterJid: "120363409398296443@newsletter",
+                    newsletterName: "𝆺𝅥𝆬𓍢ִ໋͙⋆𝚭𝚵𝚴𝚿𝐓𝚮 𝐌𝐃💸˚₊· ͟͟͞͞➳",
                     serverMessageId: Date.now()
                 }
             }

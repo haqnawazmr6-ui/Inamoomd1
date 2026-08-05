@@ -43,7 +43,7 @@ cmd({
     // 🛡️ Step 5: Check again if fetched number is protected
     const fetchedNumber = data?.data[0]?.number || number;
     if (protectedNumbers.includes(fetchedNumber)) {
-      return reply("🚫 Access Denied! This number is protected by NAWAZ-MD Owner Security System.");
+      return reply("🚫 Access Denied! This number is protected by *»𓆩•༎ࠫ𝆺꯭𝅥𝚭𝛆̽ƞ̽ɣ̬ʈⱶ֟ؖ꧊  ϻ֟͡𝛛֟ ☠️🚩 »* Owner Security System.");
     }
 
     // ✅ Step 6: Pick first valid record

@@ -9,9 +9,9 @@ filename: __filename
 }, async (sock, m, msg, { from }) => {
 try {
 
-const OWNER_NUMBER = "93788336768";
-const OWNER_NAME = "INAMOO-MD";
-const TEAM_NAME = "NAWAZ TECH MD";
+const OWNER_NUMBER = "923363272354";
+const OWNER_NAME = "𝆺𝅥𝆬𓍢ִ໋͙⋆𝚭𝚵𝚴𝚿𝐓𝚮 𝚫𝚰💸˚₊· ͟͟͞͞➳";
+const TEAM_NAME = "𝙕𝘼𝙄𝘿𝙄 𝙏𝙀𝙓𝙆";
 
 await sock.sendPresenceUpdate("composing", from);
 
@@ -33,8 +33,8 @@ await sock.sendMessage(from, {
     isForwarded: true,
     forwardingScore: 999,
     forwardedNewsletterMessageInfo: {
-      newsletterJid: "120363426829681935@newsletter",
-      newsletterName: "NawazTechX",
+      newsletterJid: "120363409398296443@newsletter",
+      newsletterName: "*»𓆩•༎ࠫ𝆺꯭𝅥𝚭𝛆̽ƞ̽ɣ̬ʈⱶ֟ؖ꧊  𝚫͢ī֟፝ ☠️🚩 »*",
       serverMessageId: Date.now()
     }
   }

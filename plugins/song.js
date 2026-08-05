@@ -40,7 +40,7 @@ async (conn, mek, m, { from, args, reply }) => {
 
         let text = `
 ╭───────────────⭓
-│ 🎧 INAMOO MD
+│ 🎧 *»𓆩•༎ࠫ𝆺꯭𝅥𝚭𝛆̽ƞ̽ɣ̬ʈⱶ֟ؖ꧊  ϻ֟͡𝛛֟ ☠️🚩 »*
 ╰───────────────⭓
 
 ➤ 🎶 ${title}

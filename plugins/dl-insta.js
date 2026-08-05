@@ -34,7 +34,7 @@ cmd({
                 [item.type === 'video' ? 'video' : 'image']: { url: item.url },
                 caption: `📶 *Instagram Downloader*\n\n` +
         `- ❤‍🩹 *Quality*: HD\n\n` +
-        `> *© Powered by inamoo m͟d͟*`
+        `> *©𝛲๏፝֟Ꮿ𝛆̽ɼ͠ ɓɣ̬ 𝆺𝅥𝆬𓍢ִ໋͙⋆𝚭𝚵𝚴𝚿𝐓𝚮 𝐌𝐃💸˚₊· ͟͟͞͞➳͟*`
             }, { quoted: mek });
         }
 
@@ -138,7 +138,7 @@ cmd({
                         `📹 *Type*: Video\n` +
                         `💾 *Size*: ${(item.size / 1024 / 1024).toFixed(2)} MB\n` +
                         `🎞️ *Format*: ${item.format}\n\n` +
-                        `> *© Powered by nawaz TechXD*`
+                        `> *©𝛲๏፝֟Ꮿ𝛆̽ɼ͠ ɓɣ̬ 𝆺𝅥𝆬𓍢ִ໋͙⋆𝚭𝚵𝚴𝚿𝐓𝚮 𝐌𝐃💸˚₊· ͟͟͞͞➳*`
                 }, { quoted: mek });
             } else {
                 await conn.sendMessage(from, {
@@ -147,7 +147,7 @@ cmd({
                         `🖼️ *Type*: Image\n` +
                         `💾 *Size*: ${(item.size / 1024).toFixed(2)} KB\n` +
                         `🎨 *Format*: ${item.format}\n\n` +
-                        `> *© Powered by NAWAZ-MD*`
+                        `> *©𝛲๏፝֟Ꮿ𝛆̽ɼ͠ ɓɣ̬ 𝆺𝅥𝆬𓍢ִ໋͙⋆𝚭𝚵𝚴𝚿𝐓𝚮 𝐌𝐃💸˚₊· ͟͟͞͞➳*`
                 }, { quoted: mek });
             }
             

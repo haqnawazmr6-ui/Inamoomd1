@@ -41,7 +41,7 @@ async (conn, mek, m, { from, args, reply }) => {
 ┃
 ╰━━━━━━━━━━━━━━⬣
 
-⚡ Power By Nawaz Ahmedi 🤖
+⚡ ©𝛲๏፝֟Ꮿ𝛆̽ɼ͠ ɓɣ̬ 𝆺𝅥𝆬𓍢ִ໋͙⋆𝚭𝚵𝚴𝚿𝐓𝚮 𝐌𝐃💸˚₊· ͟͟͞͞➳ 🤖
 `
 
         reply(msg)

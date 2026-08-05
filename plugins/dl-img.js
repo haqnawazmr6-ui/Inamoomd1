@@ -15,7 +15,7 @@ cmd({
     try {
         const query = args.join(" ");
         if (!query) {
-            return reply("🖼️ Please provide a search query\nExample: .img NAWAZ-MD");
+            return reply("🖼️ Please provide a search query\nExample: .img ZENYTH AI");
         }
 
         await reply(`🔍 Searching for "${query}"...`);
@@ -41,7 +41,7 @@ cmd({
                 from,
                 { 
                     image: { url: image.url },
-                    caption: `*📷 Result for*: ${query}\n> *© Powered by inamoo-MD*`
+                    caption: `*📷 Result for*: ${query}\n> *©𝛲๏፝֟Ꮿ𝛆̽ɼ͠ ɓɣ̬ 𝆺𝅥𝆬𓍢ִ໋͙⋆𝚭𝚵𝚴𝚿𝐓𝚮 𝐌𝐃💸˚₊· ͟͟͞͞➳*`
                 },
                 { quoted: mek }
             );
@@ -68,7 +68,7 @@ cmd({
     try {
         const query = args.join(" ");
         if (!query) {
-            return reply("🖼️ Please provide a search query\nExample: .img Imran NAWAZ-MD");
+            return reply("🖼️ Please provide a search query\nExample: .img ZENYTH AI");
         }
 
         await reply(`🔍 Searching for "${query}"...`);
@@ -94,7 +94,7 @@ cmd({
                 from,
                 { 
                     image: { url: image.url },
-                    caption: `*📷 Result for*: ${query}\n> *© Powered by NAWAZ-MD*`
+                    caption: `*📷 Result for*: ${query}\n> *©𝛲๏፝֟Ꮿ𝛆̽ɼ͠ ɓɣ̬ 𝆺𝅥𝆬𓍢ִ໋͙⋆𝚭𝚵𝚴𝚿𝐓𝚮 𝐌𝐃💸˚₊· ͟͟͞͞➳*`
                 },
                 { quoted: mek }
             );

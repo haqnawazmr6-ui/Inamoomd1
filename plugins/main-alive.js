@@ -28,7 +28,7 @@ async (conn, mek, m, { from }) => {
 
 [ BOT INFO ]
 
-> owner : INAMOO TECH
+> owner : 𝆺𝅥𝆬𓍢ִ໋͙⋆𝚭𝚵𝚴𝚿𝐓𝚮 𝐌𝐃💸˚₊· ͟͟͞͞➳
 > prefix: .
 > mode  : public
 
@@ -37,7 +37,7 @@ async (conn, mek, m, { from }) => {
 >> ACCESS GRANTED ✔
 `;
 
-        const imageLink = "https://files.catbox.moe/80hmoh.jpg";
+        const imageLink = "https://up6.cc/2026/08/17859431626931.png";
 
         // ✅ SINGLE MESSAGE (IMAGE + TEXT TOGETHER)
         await conn.sendMessage(from, {
@@ -47,8 +47,8 @@ async (conn, mek, m, { from }) => {
                 isForwarded: true,
                 forwardingScore: 999,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: "120363410324022337@newsletter",
-                    newsletterName: "inamoo TECH MD",
+                    newsletterJid: "120363409398296443@newsletter",
+                    newsletterName: "𝆺𝅥𝆬𓍢ִ໋͙⋆𝚭𝚵𝚴𝚿𝐓𝚮 𝐌𝐃💸˚₊· ͟͟͞͞➳",
                     serverMessageId: Date.now().toString()
                 }
             }

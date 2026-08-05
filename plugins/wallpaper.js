@@ -16,7 +16,7 @@ async (conn, mek, m, { reply }) => {
 
         await conn.sendMessage(m.chat, {
             image: { url },
-            caption: "🖼️ Random Wallpaper\n⚡ Powered by INAMOO-MD"
+            caption: "🖼️ Random Wallpaper\n⚡ Powered by 𝆺𝅥𝆬𓍢ִ໋͙⋆𝚭𝚵𝚴𝚿𝐓𝚮 𝚫𝚰💸˚₊· ͟͟͞͞➳"
         }, { quoted: mek });
 
     } catch (e) {

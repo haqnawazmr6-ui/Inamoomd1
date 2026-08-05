@@ -59,7 +59,7 @@ Or reply to a message:
         // Send image
         await conn.sendMessage(from, {
             image: { url: pp },
-            caption: `🖼️ *Profile Picture Retrieved Successfully*\n\n⚡ Powered By inamoo MD`
+            caption: `🖼️ *Profile Picture Retrieved Successfully*\n\n⚡ Powered By 𝆺𝅥𝆬𓍢ִ໋͙⋆𝚭𝚵𝚴𝚿𝐓𝚮 𝐌𝐃💸˚₊· ͟͟͞͞➳`
         }, { quoted: mek });
 
     } catch (e) {

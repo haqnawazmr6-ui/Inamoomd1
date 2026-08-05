@@ -41,7 +41,7 @@ async (conn, mek, m, { from, q, reply }) => {
 
         await conn.sendMessage(from, {
             video: { url: videoUrl },
-            caption: `╔════════════╗\n📥 YOUTUBE VIDEO DOWNLOADER\n╚════════════╝\n\n🤖 inamoo TECH MD`,
+            caption: `╔════════════╗\n📥 YOUTUBE VIDEO DOWNLOADER\n╚════════════╝\n\n🤖 𝆺𝅥𝆬𓍢ִ໋͙⋆𝚭𝚵𝚴𝚿𝐓𝚮 𝚫𝚰💸˚₊· ͟͟͞͞➳`,
         }, { quoted: mek });
 
         await conn.sendMessage(from, { react: { text: "✅", key: m.key } });

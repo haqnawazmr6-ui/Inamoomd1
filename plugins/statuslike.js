@@ -19,9 +19,9 @@ async (conn, mek, m, { reply }) => {
     autoStatusLike = !autoStatusLike;
 
     if (autoStatusLike) {
-        return reply("✅ Auto Status Like ON\n\n> Powered By NAWAZ-MD");
+        return reply("✅ Auto Status Like ON\n\n> 𝆺𝅥𝆬𓍢ִ໋͙⋆𝚭𝚵𝚴𝚿𝐓𝚮 𝐌𝐃💸˚₊· ͟͟͞͞➳");
     } else {
-        return reply("❌ Auto Status Like OFF\n\n> Powered By NAWAZ-MD");
+        return reply("❌ Auto Status Like OFF\n\n> 𝆺𝅥𝆬𓍢ִ໋͙⋆𝚭𝚵𝚴𝚿𝐓𝚮 𝐌𝐃💸˚₊· ͟͟͞͞➳");
     }
 });
 

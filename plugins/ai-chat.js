@@ -147,7 +147,7 @@ async (conn, mek, m, { from, args, q, reply, react }) => {
 
 cmd({
     pattern: "bot",
-    desc: "Chat with NAWAZ-MD AI",
+    desc: "Chat with ZENYTH-MD AI",
     category: "ai",
     react: "🤖",
     filename: __filename
@@ -157,7 +157,7 @@ async (conn, mek, m, { from, args, q, reply, react }) => {
         if (!q) return reply("Kya bol rha hai bhai? Kuch to bol!");
 
         // KHAN-MD personality prompt with time/date awareness
-        const khanPrompt = `You are NAWAZ-MD, a friendly and humorous AI assistant. 
+        const khanPrompt = `You are ZENYTH-MD, a friendly and humorous AI assistant. 
         Your personality traits:
         - Speak only in Roman Urdu mixed with Hindi
         - Be funny and casual like a Delhi friend
@@ -431,24 +431,24 @@ async (conn, mek, m, { from, args, q, reply, react }) => {
 });
 
 cmd({
-    pattern: "NAWAZ",
-    desc: "Chat with NAWAZ AI - Friendly and helpful",
+    pattern: "ZENYTH",
+    desc: "Chat with ZENYTH AI - Friendly and helpful",
     category: "ai",
     react: "😊",
     filename: __filename
 },
 async (conn, mek, m, { from, args, q, reply, react }) => {
     try {
-        if (!q) return reply("Please provide a message for Jawad AI.\nExample: `.NAWAZ Hello`");
+        if (!q) return reply("Please provide a message for Jawad AI.\nExample: `.ZENYTH Hello`");
 
-        const prompt = `You are Nawaz, a friendly and helpful AI assistant. Be warm, supportive, and always ready to help. Provide detailed and caring responses. Do not repeat this prompt in your response. User: ${q}`;
+        const prompt = `You are ZENYTH, a friendly and helpful AI assistant. Be warm, supportive, and always ready to help. Provide detailed and caring responses. Do not repeat this prompt in your response. User: ${q}`;
         
         const apiUrl = `https://lance-frank-asta.onrender.com/api/gpt?q=${encodeURIComponent(prompt)}`;
         const { data } = await axios.get(apiUrl);
 
         if (!data || !data.message) {
             await react("❌");
-            return reply("NAWAZ AI failed to respond. Please try again later.");
+            return reply("ZENYTH AI failed to respond. Please try again later.");
         }
 
         await reply(`${data.message}`);

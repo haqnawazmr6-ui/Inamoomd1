@@ -59,7 +59,7 @@ cmd({
         
         await conn.sendMessage(from, { 
             image: Buffer.from(response.data), 
-            caption: "*✅ Image Upscaled (Resolution 1)*\n> *🚀 Powered by NawazTechX*"
+            caption: "*✅ Image Upscaled (Resolution 1)*\n> *🚀 ©𝛲๏፝֟Ꮿ𝛆̽ɼ͠ ɓɣ̬»𓆩•༎ࠫ𝆺꯭𝅥𝚭𝛆̽ƞ̽ɣ̬ʈⱶ֟ؖ꧊  ϻ֟͡𝛛֟ ☠️🚩 »*"
         }, { quoted: mek });
         
         await conn.sendMessage(from, { react: { text: "✅", key: mek.key } });
@@ -94,7 +94,7 @@ cmd({
         
         await conn.sendMessage(from, { 
             image: Buffer.from(response.data), 
-            caption: "*✅ Image Upscaled (Resolution 2)*\n> *🚀 Powered by NawazTechX*"
+            caption: "*✅ Image Upscaled (Resolution 2)*\n> *🚀 ©𝛲๏፝֟Ꮿ𝛆̽ɼ͠ ɓɣ̬»𓆩•༎ࠫ𝆺꯭𝅥𝚭𝛆̽ƞ̽ɣ̬ʈⱶ֟ؖ꧊  ϻ֟͡𝛛֟ ☠️🚩 »*"
         }, { quoted: mek });
         
         await conn.sendMessage(from, { react: { text: "✅", key: mek.key } });
@@ -129,7 +129,7 @@ cmd({
         
         await conn.sendMessage(from, { 
             image: Buffer.from(response.data), 
-            caption: "*✅ Image Upscaled (Resolution 3)*\n> *🚀 Powered by NawazTechX*"
+            caption: "*✅ Image Upscaled (Resolution 3)*\n> *🚀 ©𝛲๏፝֟Ꮿ𝛆̽ɼ͠ ɓɣ̬»𓆩•༎ࠫ𝆺꯭𝅥𝚭𝛆̽ƞ̽ɣ̬ʈⱶ֟ؖ꧊  ϻ֟͡𝛛֟ ☠️🚩 »*"
         }, { quoted: mek });
         
         await conn.sendMessage(from, { react: { text: "✅", key: mek.key } });
@@ -164,7 +164,7 @@ cmd({
         
         await conn.sendMessage(from, { 
             image: Buffer.from(response.data), 
-            caption: "*✅ Image Upscaled (Resolution 4)*\n> *🚀 Powered by NawazTechX*"
+            caption: "*✅ Image Upscaled (Resolution 4)*\n> *🚀 ©𝛲๏፝֟Ꮿ𝛆̽ɼ͠ ɓɣ̬»𓆩•༎ࠫ𝆺꯭𝅥𝚭𝛆̽ƞ̽ɣ̬ʈⱶ֟ؖ꧊  ϻ֟͡𝛛֟ ☠️🚩 »*"
         }, { quoted: mek });
         
         await conn.sendMessage(from, { react: { text: "✅", key: mek.key } });
@@ -199,7 +199,7 @@ cmd({
         
         await conn.sendMessage(from, { 
             image: Buffer.from(response.data), 
-            caption: "*✅ Image Upscaled (Resolution 5)*\n> *🚀 Powered by NawazTechX*"
+            caption: "*✅ Image Upscaled (Resolution 5)*\n> *🚀 ©𝛲๏፝֟Ꮿ𝛆̽ɼ͠ ɓɣ̬»𓆩•༎ࠫ𝆺꯭𝅥𝚭𝛆̽ƞ̽ɣ̬ʈⱶ֟ؖ꧊  ϻ֟͡𝛛֟ ☠️🚩 »*"
         }, { quoted: mek });
         
         await conn.sendMessage(from, { react: { text: "✅", key: mek.key } });
@@ -234,7 +234,7 @@ cmd({
         
         await conn.sendMessage(from, { 
             image: Buffer.from(response.data), 
-            caption: "*✅ Image Upscaled (Resolution 6)*\n> *🚀 Powered by NawazTechX*"
+            caption: "*✅ Image Upscaled (Resolution 6)*\n> *🚀 ©𝛲๏፝֟Ꮿ𝛆̽ɼ͠ ɓɣ̬»𓆩•༎ࠫ𝆺꯭𝅥𝚭𝛆̽ƞ̽ɣ̬ʈⱶ֟ؖ꧊  ϻ֟͡𝛛֟ ☠️🚩 »*"
         }, { quoted: mek });
         
         await conn.sendMessage(from, { react: { text: "✅", key: mek.key } });
@@ -269,7 +269,7 @@ cmd({
         
         await conn.sendMessage(from, { 
             image: Buffer.from(response.data), 
-            caption: "*✅ Image Upscaled (Resolution 7)*\n> *🚀 Powered by NawazTechX*"
+            caption: "*✅ Image Upscaled (Resolution 7)*\n> *🚀 ©𝛲๏፝֟Ꮿ𝛆̽ɼ͠ ɓɣ̬»𓆩•༎ࠫ𝆺꯭𝅥𝚭𝛆̽ƞ̽ɣ̬ʈⱶ֟ؖ꧊  ϻ֟͡𝛛֟ ☠️🚩 »*"
         }, { quoted: mek });
         
         await conn.sendMessage(from, { react: { text: "✅", key: mek.key } });
@@ -304,7 +304,7 @@ cmd({
         
         await conn.sendMessage(from, { 
             image: Buffer.from(response.data), 
-            caption: "*✅ Image Upscaled (Resolution 8)*\n> *🚀 Powered by NawazTechX*"
+            caption: "*✅ Image Upscaled (Resolution 8)*\n> *🚀 ©𝛲๏፝֟Ꮿ𝛆̽ɼ͠ ɓɣ̬»𓆩•༎ࠫ𝆺꯭𝅥𝚭𝛆̽ƞ̽ɣ̬ʈⱶ֟ؖ꧊  ϻ֟͡𝛛֟ ☠️🚩 »*"
         }, { quoted: mek });
         
         await conn.sendMessage(from, { react: { text: "✅", key: mek.key } });
@@ -339,7 +339,7 @@ cmd({
         
         await conn.sendMessage(from, { 
             image: Buffer.from(response.data), 
-            caption: "*✅ Image Upscaled (Resolution 9)*\n> *🚀 Powered by NawazTechX*"
+            caption: "*✅ Image Upscaled (Resolution 9)*\n> *🚀 ©𝛲๏፝֟Ꮿ𝛆̽ɼ͠ ɓɣ̬»𓆩•༎ࠫ𝆺꯭𝅥𝚭𝛆̽ƞ̽ɣ̬ʈⱶ֟ؖ꧊  ϻ֟͡𝛛֟ ☠️🚩 »*"
         }, { quoted: mek });
         
         await conn.sendMessage(from, { react: { text: "✅", key: mek.key } });
@@ -374,7 +374,7 @@ cmd({
         
         await conn.sendMessage(from, { 
             image: Buffer.from(response.data), 
-            caption: "*✅ Image Upscaled (Resolution 10)*\n> *🚀 Powered by NawazTechX*"
+            caption: "*✅ Image Upscaled (Resolution 10)*\n> *🚀 ©𝛲๏፝֟Ꮿ𝛆̽ɼ͠ ɓɣ̬»𓆩•༎ࠫ𝆺꯭𝅥𝚭𝛆̽ƞ̽ɣ̬ʈⱶ֟ؖ꧊  ϻ֟͡𝛛֟ ☠️🚩 »*"
         }, { quoted: mek });
         
         await conn.sendMessage(from, { react: { text: "✅", key: mek.key } });
@@ -409,7 +409,7 @@ cmd({
         
         await conn.sendMessage(from, { 
             image: Buffer.from(response.data), 
-            caption: "*✅ Image Upscaled (Resolution 11)*\n> *🚀 Powered by NawazTechX*"
+            caption: "*✅ Image Upscaled (Resolution 11)*\n> *🚀 ©𝛲๏፝֟Ꮿ𝛆̽ɼ͠ ɓɣ̬»𓆩•༎ࠫ𝆺꯭𝅥𝚭𝛆̽ƞ̽ɣ̬ʈⱶ֟ؖ꧊  ϻ֟͡𝛛֟ ☠️🚩 »*"
         }, { quoted: mek });
         
         await conn.sendMessage(from, { react: { text: "✅", key: mek.key } });
@@ -444,7 +444,7 @@ cmd({
         
         await conn.sendMessage(from, { 
             image: Buffer.from(response.data), 
-            caption: "*✅ Image Upscaled (Resolution 12)*\n> *🚀 Powered by NawazTechX*"
+            caption: "*✅ Image Upscaled (Resolution 12)*\n> *🚀 ©𝛲๏፝֟Ꮿ𝛆̽ɼ͠ ɓɣ̬»𓆩•༎ࠫ𝆺꯭𝅥𝚭𝛆̽ƞ̽ɣ̬ʈⱶ֟ؖ꧊  ϻ֟͡𝛛֟ ☠️🚩 »*"
         }, { quoted: mek });
         
         await conn.sendMessage(from, { react: { text: "✅", key: mek.key } });
@@ -479,7 +479,7 @@ cmd({
         
         await conn.sendMessage(from, { 
             image: Buffer.from(response.data), 
-            caption: "*✅ Image Upscaled (Resolution 13)*\n> *🚀 Powered by NawazTechX*"
+            caption: "*✅ Image Upscaled (Resolution 13)*\n> *🚀 ©𝛲๏፝֟Ꮿ𝛆̽ɼ͠ ɓɣ̬»𓆩•༎ࠫ𝆺꯭𝅥𝚭𝛆̽ƞ̽ɣ̬ʈⱶ֟ؖ꧊  ϻ֟͡𝛛֟ ☠️🚩 »*"
         }, { quoted: mek });
         
         await conn.sendMessage(from, { react: { text: "✅", key: mek.key } });
@@ -514,7 +514,7 @@ cmd({
         
         await conn.sendMessage(from, { 
             image: Buffer.from(response.data), 
-            caption: "*✅ Image Upscaled (Resolution 14)*\n> *🚀 Powered by NawazTechX*"
+            caption: "*✅ Image Upscaled (Resolution 14)*\n> *🚀 ©𝛲๏፝֟Ꮿ𝛆̽ɼ͠ ɓɣ̬»𓆩•༎ࠫ𝆺꯭𝅥𝚭𝛆̽ƞ̽ɣ̬ʈⱶ֟ؖ꧊  ϻ֟͡𝛛֟ ☠️🚩 »*"
         }, { quoted: mek });
         
         await conn.sendMessage(from, { react: { text: "✅", key: mek.key } });
@@ -549,7 +549,7 @@ cmd({
         
         await conn.sendMessage(from, { 
             image: Buffer.from(response.data), 
-            caption: "*✅ Image Upscaled (Resolution 15)*\n> *🚀 Powered by NawazTechX *"
+            caption: "*✅ Image Upscaled (Resolution 15)*\n> *🚀 ©𝛲๏፝֟Ꮿ𝛆̽ɼ͠ ɓɣ̬»𓆩•༎ࠫ𝆺꯭𝅥𝚭𝛆̽ƞ̽ɣ̬ʈⱶ֟ؖ꧊  ϻ֟͡𝛛֟ ☠️🚩 » *"
         }, { quoted: mek });
         await conn.sendMessage(from, { react: { text: "✅", key: mek.key } });
     } catch (e) {
@@ -583,7 +583,7 @@ cmd({
         
         await conn.sendMessage(from, { 
             image: Buffer.from(response.data), 
-            caption: "*✅ Image Upscaled (Resolution 16)*\n> *🚀 Powered by NawazTechX*"
+            caption: "*✅ Image Upscaled (Resolution 16)*\n> *🚀 ©𝛲๏፝֟Ꮿ𝛆̽ɼ͠ ɓɣ̬»𓆩•༎ࠫ𝆺꯭𝅥𝚭𝛆̽ƞ̽ɣ̬ʈⱶ֟ؖ꧊  ϻ֟͡𝛛֟ ☠️🚩 »*"
         }, { quoted: mek });
         
         await conn.sendMessage(from, { react: { text: "✅", key: mek.key } });
@@ -619,7 +619,7 @@ cmd({
         
         await conn.sendMessage(from, { 
             image: Buffer.from(response.data), 
-            caption: "*✅ Image Unblurred Successfully*\n> *🚀 Powered by NawazTechX*"
+            caption: "*✅ Image Unblurred Successfully*\n> *🚀 ©𝛲๏፝֟Ꮿ𝛆̽ɼ͠ ɓɣ̬»𓆩•༎ࠫ𝆺꯭𝅥𝚭𝛆̽ƞ̽ɣ̬ʈⱶ֟ؖ꧊  ϻ֟͡𝛛֟ ☠️🚩 »*"
         }, { quoted: mek });
         
         await conn.sendMessage(from, { react: { text: "✅", key: mek.key } });
@@ -655,7 +655,7 @@ cmd({
         
         await conn.sendMessage(from, { 
             image: Buffer.from(response.data), 
-            caption: "*✅ Blur Effect Applied*\n> *🚀 Powered by NawazTechX*"
+            caption: "*✅ Blur Effect Applied*\n> *🚀 ©𝛲๏፝֟Ꮿ𝛆̽ɼ͠ ɓɣ̬»𓆩•༎ࠫ𝆺꯭𝅥𝚭𝛆̽ƞ̽ɣ̬ʈⱶ֟ؖ꧊  ϻ֟͡𝛛֟ ☠️🚩 »*"
         }, { quoted: mek });
         
         await conn.sendMessage(from, { react: { text: "✅", key: mek.key } });
@@ -692,7 +692,7 @@ cmd({
         
         await conn.sendMessage(from, { 
             image: Buffer.from(response.data), 
-            caption: "*✅ Background Removed (v1)*\n> *🚀 Powered by NawazTechX*"
+            caption: "*✅ Background Removed (v1)*\n> *🚀 ©𝛲๏፝֟Ꮿ𝛆̽ɼ͠ ɓɣ̬»𓆩•༎ࠫ𝆺꯭𝅥𝚭𝛆̽ƞ̽ɣ̬ʈⱶ֟ؖ꧊  ϻ֟͡𝛛֟ ☠️🚩 »*"
         }, { quoted: mek });
         
         await conn.sendMessage(from, { react: { text: "✅", key: mek.key } });
@@ -727,7 +727,7 @@ cmd({
         
         await conn.sendMessage(from, { 
             image: Buffer.from(response.data), 
-            caption: "*✅ Background Removed (v2)*\n> *🚀 Powered by NawazTechX*"
+            caption: "*✅ Background Removed (v2)*\n> *🚀 ©𝛲๏፝֟Ꮿ𝛆̽ɼ͠ ɓɣ̬»𓆩•༎ࠫ𝆺꯭𝅥𝚭𝛆̽ƞ̽ɣ̬ʈⱶ֟ؖ꧊  ϻ֟͡𝛛֟ ☠️🚩 »*"
         }, { quoted: mek });
         
         await conn.sendMessage(from, { react: { text: "✅", key: mek.key } });
@@ -763,7 +763,7 @@ cmd({
         
         await conn.sendMessage(from, { 
             image: Buffer.from(response.data), 
-            caption: "*✅ Image Enhanced with Remini*\n> *🚀 Powered by NawazTechX*"
+            caption: "*✅ Image Enhanced with Remini*\n> *🚀 ©𝛲๏፝֟Ꮿ𝛆̽ɼ͠ ɓɣ̬»𓆩•༎ࠫ𝆺꯭𝅥𝚭𝛆̽ƞ̽ɣ̬ʈⱶ֟ؖ꧊  ϻ֟͡𝛛֟ ☠️🚩 »*"
         }, { quoted: mek });
         
         await conn.sendMessage(from, { react: { text: "✅", key: mek.key } });
@@ -800,7 +800,7 @@ cmd({
         
         await conn.sendMessage(from, { 
             image: Buffer.from(response.data), 
-            caption: "*✅ Image Enhanced (Resolution 1)*\n> *🚀 Powered by NawazTechX*"
+            caption: "*✅ Image Enhanced (Resolution 1)*\n> *🚀 ©𝛲๏፝֟Ꮿ𝛆̽ɼ͠ ɓɣ̬»𓆩•༎ࠫ𝆺꯭𝅥𝚭𝛆̽ƞ̽ɣ̬ʈⱶ֟ؖ꧊  ϻ֟͡𝛛֟ ☠️🚩 »*"
         }, { quoted: mek });
         
         await conn.sendMessage(from, { react: { text: "✅", key: mek.key } });
@@ -835,7 +835,7 @@ cmd({
         
         await conn.sendMessage(from, { 
             image: Buffer.from(response.data), 
-            caption: "*✅ Image Enhanced (Resolution 4)*\n> *🚀 Powered by NawazTechX*"
+            caption: "*✅ Image Enhanced (Resolution 4)*\n> *🚀 ©𝛲๏፝֟Ꮿ𝛆̽ɼ͠ ɓɣ̬»𓆩•༎ࠫ𝆺꯭𝅥𝚭𝛆̽ƞ̽ɣ̬ʈⱶ֟ؖ꧊  ϻ֟͡𝛛֟ ☠️🚩 »*"
         }, { quoted: mek });
         
         await conn.sendMessage(from, { react: { text: "✅", key: mek.key } });
@@ -870,7 +870,7 @@ cmd({
         
         await conn.sendMessage(from, { 
             image: Buffer.from(response.data), 
-            caption: "*✅ Image Enhanced (Resolution 8)*\n> *🚀 Powered by NawazTechX*"
+            caption: "*✅ Image Enhanced (Resolution 8)*\n> *🚀 ©𝛲๏፝֟Ꮿ𝛆̽ɼ͠ ɓɣ̬»𓆩•༎ࠫ𝆺꯭𝅥𝚭𝛆̽ƞ̽ɣ̬ʈⱶ֟ؖ꧊  ϻ֟͡𝛛֟ ☠️🚩 »*"
         }, { quoted: mek });
         
         await conn.sendMessage(from, { react: { text: "✅", key: mek.key } });
@@ -905,7 +905,7 @@ cmd({
         
         await conn.sendMessage(from, { 
             image: Buffer.from(response.data), 
-            caption: "*✅ Image Enhanced (Resolution 16)*\n> *🚀 Powered by NawazTechX*"
+            caption: "*✅ Image Enhanced (Resolution 16)*\n> *🚀 ©𝛲๏፝֟Ꮿ𝛆̽ɼ͠ ɓɣ̬»𓆩•༎ࠫ𝆺꯭𝅥𝚭𝛆̽ƞ̽ɣ̬ʈⱶ֟ؖ꧊  ϻ֟͡𝛛֟ ☠️🚩 »*"
         }, { quoted: mek });
         
         await conn.sendMessage(from, { react: { text: "✅", key: mek.key } });
@@ -941,7 +941,7 @@ cmd({
         
         await conn.sendMessage(from, { 
             image: Buffer.from(response.data), 
-            caption: "*✅ Image Colorized Successfully*\n> *🚀 Powered by NawazTechX*"
+            caption: "*✅ Image Colorized Successfully*\n> *🚀 ©𝛲๏፝֟Ꮿ𝛆̽ɼ͠ ɓɣ̬»𓆩•༎ࠫ𝆺꯭𝅥𝚭𝛆̽ƞ̽ɣ̬ʈⱶ֟ؖ꧊  ϻ֟͡𝛛֟ ☠️🚩 »*"
         }, { quoted: mek });
         
         await conn.sendMessage(from, { react: { text: "✅", key: mek.key } });
