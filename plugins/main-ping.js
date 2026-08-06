@@ -58,7 +58,7 @@ async (conn, mek, m, { from, sender, reply }) => {
 
         const responseTime = Date.now() - start;
 
-        const text = `> *${styleText("inamoo MD MINI BOT SPEED")}: ${responseTime}ms ${reactionEmoji}*`;
+        const text = `> *${styleText("ZENYTH MD MINI BOT SPEED")}: ${responseTime}ms ${reactionEmoji}*`;
 
         await conn.sendMessage(from, {
             text,
